@@ -50,6 +50,9 @@ PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+# WireGuard
+PACKAGES="$PACKAGES luci-proto-wireguard"
+# qrencode
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
@@ -58,7 +61,7 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # 文件管理器
 # 静态文件服务器dufs(推荐)
 # ======== shell/custom-packages.sh =======
